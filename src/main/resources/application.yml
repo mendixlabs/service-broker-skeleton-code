@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    openservicebroker:
+      base-path: /sample-broker
+      catalog:
+        services:
+        - id: example-service
+          name: example
+          description: A simple example
+          bindable: true
+          tags:
+          - example
+          - tags
+          plans:
+          - id: simple-plan
+            name: standard
+            description: A simple plan
+            
+            
+            
